@@ -1,0 +1,61 @@
+{"timestamp":"00:00:07.503","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:07.503","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:07.503","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:20.358","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:01:26.008","source":"Server","level":"LOG","message":"  Reload env: .env"}
+{"timestamp":"00:01:35.272","source":"Server","level":"LOG","message":"  Reload env: .env"}
+{"timestamp":"00:05:05.191","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"00:06:01.037","source":"Server","level":"LOG","message":"✓ Compiled in 5ms"}
+{"timestamp":"00:06:02.407","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:06:07.621","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:06:13.126","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:06:42.582","source":"Browser","level":"ERROR","message":"./src/app/orders/page.tsx:6:1\nError: 'import', and 'export' cannot be used outside of module code\n  4 |\n  5 | export default async function OrdersPage() {\n> 6 | export const instant = false;\n    | ^^^^^^\n  7 |   const cookieStore = await cookies();\n  8 |   const token = cookieStore.get(\"coffee_token\")?.value;\n  9 |   if (!token) redirect(\"/login\");\n\nParsing ecmascript source code failed "}
+{"timestamp":"00:06:42.583","source":"Server","level":"ERROR","message":"[browser] \"./src/app/orders/page.tsx:6:1\\nError: 'import', and 'export' cannot be used outside of module code\\n  4 |\\n  5 | export default async function OrdersPage() {\\n> 6 | export const instant = false;\\n    | ^^^^^^\\n  7 |   const cookieStore = await cookies();\\n  8 |   const token = cookieStore.get(\\\"coffee_token\\\")?.value;\\n  9 |   if (!token) redirect(\\\"/login\\\");\\n\\nParsing ecmascript source code failed\" \"\""}
+{"timestamp":"00:09:52.915","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:53.879","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:13:05.225","source":"Server","level":"LOG","message":"Estado del backend: 401"}
+{"timestamp":"00:13:30.410","source":"Server","level":"LOG","message":"Estado del backend: 401"}
+{"timestamp":"00:14:35.094","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:15:00.357","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:16:32.298","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:17:26.648","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:17:34.221","source":"Server","level":"LOG","message":"✓ Compiled in 115ms"}
+{"timestamp":"00:17:44.341","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:17:58.592","source":"Server","level":"LOG","message":"Estado del registro: 400"}
+{"timestamp":"00:19:29.831","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:19:36.398","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:19:45.707","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:19:52.916","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:19:56.302","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:20:46.888","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:20:57.746","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:21:04.292","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:21:24.789","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:21:29.985","source":"Server","level":"LOG","message":"Estado del registro: 400"}
+{"timestamp":"00:21:29.993","source":"Server","level":"LOG","message":"Error del backend: {}"}
+{"timestamp":"00:22:36.833","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"00:22:37.914","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:22:38.987","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:23:06.265","source":"Server","level":"LOG","message":"Estado del registro: 201"}
+{"timestamp":"00:24:12.408","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"00:24:27.522","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:24:29.071","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"00:24:30.422","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:24:34.286","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:26:08.898","source":"Server","level":"LOG","message":"✓ Compiled in 63ms"}
+{"timestamp":"00:26:20.240","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:26:33.788","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:27:04.699","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:27:10.299","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:27:30.654","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"00:28:08.498","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:28:24.321","source":"Server","level":"LOG","message":"✓ Compiled in 7ms"}
+{"timestamp":"00:28:42.602","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:28:50.760","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:28:56.774","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:29:08.140","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"00:29:43.303","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:29:54.979","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:30:01.203","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:30:13.299","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:30:21.280","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}

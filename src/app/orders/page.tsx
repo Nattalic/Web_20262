@@ -1,13 +1,16 @@
 import OrderCard from "@/components/order-card";
-import { redirect } from "next/dist/client/components/navigation";
-import { cookies } from "next/dist/server/request/cookies";
+import { redirect } from "next/navigation";
+import { cookies } from "next/headers";
+
+export const instant = false;
 
 export default async function OrdersPage() {
-  
+  //primero busca el token, y si no existe  los devuelve a login
   const cookieStore = await cookies();
   const token = cookieStore.get("coffee_token")?.value;
   if (!token) redirect("/login");
   
+  //si existe, entonces se logea
   const response = await fetch(`${process.env.COFFEE_API_URL}/orders`, {
     headers: { Authorization: `Bearer ${token}` },
     cache: "no-store",
