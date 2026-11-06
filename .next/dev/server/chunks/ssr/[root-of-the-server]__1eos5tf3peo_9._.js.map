@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nordo/OneDrive/Desktop/Universidad%202026-2/Web/Web_20262/src/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
-    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nordo/OneDrive/Desktop/Universidad%202026-2/Web/Web_20262/src/app/otraPagina/page.tsx"],"sourcesContent":["export default function OtraPagina() {\r\n  return (\r\n    <main>\r\n      <h1>Otra Página</h1>\r\n      <p>Esta es otra página de ejemplo.</p>\r\n    </main>\r\n  );\r\n}"],"names":["OtraPagina"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGT"}}]
-}
