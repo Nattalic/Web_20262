@@ -1,6 +1,8 @@
 import OrderCard from "@/components/order-card";
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
+import OrdersSummary from "@/components/orders-summary";
+import { OrderSummary } from "@/types/order-summary";
 
 export const instant = false;
 
@@ -18,14 +20,39 @@ export default async function OrdersPage() {
 
   if (response?.status === 401) redirect("/login");
 
-  const data = response?.ok ? await response.json().catch(() => null) : null;
-  const ordersApi = Array.isArray(data) ? data : null;
-  
+  if (!response?.ok) {
+    return (
+      <main>
+        <p>No se pudieron cargar los pedidos.</p>
+      </main>
+    );
+  }
+
+  const data = await response.json().catch(() => null);
+  const orders: OrderSummary[] = Array.isArray(data) ? data : [];
+
+  const total = orders.length; //cuenta todos los pedidos
+
+  const pending = orders.filter( //selecciona los pedidos que cumplen una condición
+    (order) => order.status === "pending"
+  ).length; //cuenta los elementos que quedaron después de filtrar.
+
+  const ready = orders.filter(
+    (order) => order.status === "ready"
+  ).length;
+
   return (
     <main>
       <h1>Pedidos</h1>
-      <section className="orders-grid" aria-label="Listado de pedidos">
-        {ordersApi?.map((order) => (
+
+      <OrdersSummary
+        total={total}
+        pending={pending}
+        ready={ready}
+      />
+
+       <section className="orders-grid" aria-label="Listado de pedidos">
+        {orders.map((order) => (
           <OrderCard key={order.id} order={order} />
         ))}
       </section>
